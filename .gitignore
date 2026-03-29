@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+backend/portal/venv/
+.env
+backend/portal/.env
+frontend/.env
+
+# Local secrets / OAuth downloads
+docs/client_secret*.json
+*-secret*.json
+
+# Django
+db.sqlite3
+*.log
+backend/portal/test.sqlite3
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
